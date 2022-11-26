@@ -15,3 +15,8 @@ void ShowStringArray(string [] array)
         Console.Write(array[i] + " ");
     Console.WriteLine();    
 }
+
+Console.WriteLine("Input a size for yor array: ");
+int size = Convert.ToInt32(Console.ReadLine());
+string [] myArray = CreateStringArray(size);
+ShowStringArray(myArray);
