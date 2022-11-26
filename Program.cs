@@ -20,3 +20,18 @@ Console.WriteLine("Input a size for yor array: ");
 int size = Convert.ToInt32(Console.ReadLine());
 string [] myArray = CreateStringArray(size);
 ShowStringArray(myArray);
+
+string [] NewStringArray(string [] array)
+{
+    int count = 0;
+    string [] endArray = new string [array.Length];
+    for(int i = 0; i < endArray.Length; i++)
+    {
+        if(array[i].Length <= 3)
+        {
+            endArray[count] = array[i];
+            count++;
+        }
+    }
+    return endArray;
+}
