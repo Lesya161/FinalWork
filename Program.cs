@@ -35,3 +35,6 @@ string [] NewStringArray(string [] array)
     }
     return endArray;
 }
+
+string [] finalArray = NewStringArray(myArray);
+ShowStringArray(finalArray);
