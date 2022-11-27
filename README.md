@@ -19,7 +19,7 @@
 ## Описание решения.
 
 [Ссылка](https://app.diagrams.net/#G1lSmT-S2MK8PRZ02UdtRPw6BOZRNPJJr2) на блок схему.
-![Блок-схема](https://user-images.githubusercontent.com/114298712/204097766-1ddfbd24-7880-4225-b537-1e05a1688f01.jpg)
+![Блок-схема](![ДЗ](https://user-images.githubusercontent.com/114298712/204135437-03440685-4c10-482b-abc2-89725d5a1c6c.jpg)
 Картинка добавлена в репозиторий.
 
 1. Написан метод для создания массива из стоковых значений.
